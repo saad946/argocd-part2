@@ -4,9 +4,6 @@ kind: Application
 metadata:
   name: my-app
   namespace: argocd
-  annotations:
-    argocd-image-updater.argoproj.io/image-list: saad946/nginx
-    argocd-image-updater.argoproj.io/write-back-method: git
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
