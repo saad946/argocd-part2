@@ -5,7 +5,7 @@ metadata:
   name: my-app
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: aputra/nginx-lesson159:~v0.4
+    argocd-image-updater.argoproj.io/image-list: saad946/nginx
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
