@@ -14,14 +14,7 @@ spec:
     repoURL: https://github.com/saad946/argocd-part2.git
     targetRevision: main
     path: my-app-chart
-    helm:
-      parameters:
-        - name: "replicaCount"
-          value: "2"
-        - name: "image.repository"
-          value: saad946/nginx
-        - name: "image.tag"
-          value: v0.1.0
+   
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
